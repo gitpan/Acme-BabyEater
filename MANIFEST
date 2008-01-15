@@ -1,0 +1,7 @@
+Changes
+Makefile.PL
+MANIFEST
+README
+t/Acme-BabyEater.t
+lib/Acme/BabyEater.pm
+META.yml                                 Module meta-data (added by MakeMaker)
