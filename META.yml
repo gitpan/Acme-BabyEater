@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                Acme-BabyEater
-version:             0.01
+version:             0.02
 abstract:            Baby eating has never been easier!
 license:             ~
 author:              

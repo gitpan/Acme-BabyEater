@@ -1,5 +1,8 @@
 Revision history for Perl extension Acme::BabyEater.
 
+0.01  Sun Jan 27 01:00:00 2008
+	- removed some redundance. Added more random baby eating.
+
 0.01  Mon Jan 14 23:39:58 2008
 	- original version; created by h2xs 1.23 with options
 		-X --skip-exporter --skip-autoloader -v 0.01 -n Acme::BabyEater

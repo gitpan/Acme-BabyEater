@@ -4,26 +4,19 @@ use 5.008008;
 use strict;
 use warnings;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 use List::Util qw(shuffle);
 
 sub new {
     my $class = shift;
-    
-    die "Even number of arguments required"
-        if @_ & 1;
 
-    my %args = @_;
-    
-    $args{ lc $_ } = delete $args{ $_ } for keys %args;
-
-    my $self = bless \%args, $class;
+    my $self = bless {}, $class;
 }
 
 sub eat {
     my ( $self, $baby_num ) = @_;
-    $baby_num ||= int rand 10;
+    $baby_num ||= int rand 20;
 
     print "\nEating baby number $_\n" . $self->_eat_baby . "\n", 
         for 1 .. $baby_num;

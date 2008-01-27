@@ -10,5 +10,3 @@ my $eater = Acme::BabyEater->new;
 
 isa_ok( $eater, 'Acme::BabyEater');
 can_ok( $eater, qw(eat));
-
-
