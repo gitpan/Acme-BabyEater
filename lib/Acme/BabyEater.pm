@@ -4,7 +4,7 @@ use 5.008008;
 use strict;
 use warnings;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 use List::Util qw(shuffle);
 
@@ -87,6 +87,7 @@ The problem is now solved! Thanks to Acme::BabyEater!
 
 =head1 CONSTRUCTOR
 
+=head2 new
     use Acme::BabyEater;
     my $eater = Acme::BabyEater->new;
 
@@ -96,6 +97,8 @@ don't forget the fork()!! Due to the super advanced BabyJesus(tm)(c)(zomg)
 technology you can fork out virtually any number of baby chrunchers!!
 
 =head1 METHODS
+
+=head2 eat
 
     $eater->eat;
     
@@ -115,15 +118,49 @@ Don't rely on rand()!! Install now! Don't miss this unique opportunity!!
 
 =head1 AUTHOR
 
-Zoffix Znet, E<lt>zoffix@cpan.orgE<gt>
+Zoffix Znet, C<< <zoffix at cpan.org> >>
 
-=head1 COPYRIGHT AND LICENSE
+=head1 BUGS
 
-Copyright (C) 2008 by Zoffix Znet
+Please report any bugs or feature requests to C<bug-acme-babyeater at rt.cpan.org>, or through
+the web interface at L<http://rt.cpan.org/NoAuth/ReportBug.html?Queue=Acme-BabyEater>.  I will be notified, and then you'll
+automatically be notified of progress on your bug as I make changes.
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.8 or,
-at your option, any later version of Perl 5 you may have available.
+=head1 SUPPORT
+
+You can find documentation for this module with the perldoc command.
+
+    perldoc Acme::BabyEater
+
+You can also look for information at:
+
+=over 4
+
+=item * RT: CPAN's request tracker
+
+L<http://rt.cpan.org/NoAuth/Bugs.html?Dist=Acme-BabyEater>
+
+=item * AnnoCPAN: Annotated CPAN documentation
+
+L<http://annocpan.org/dist/Acme-BabyEater>
+
+=item * CPAN Ratings
+
+L<http://cpanratings.perl.org/d/Acme-BabyEater>
+
+=item * Search CPAN
+
+L<http://search.cpan.org/dist/Acme-BabyEater>
+
+=back
+
+=head1 COPYRIGHT & LICENSE
+
+Copyright 2008 Zoffix Znet, all rights reserved.
+
+This program is free software; you can redistribute it and/or modify it
+under the same terms as Perl itself.
 
 
 =cut
+

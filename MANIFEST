@@ -1,7 +1,11 @@
+Build.PL
 Changes
-Makefile.PL
 MANIFEST
 README
-t/Acme-BabyEater.t
+examples/baby_cruncher.pl
 lib/Acme/BabyEater.pm
-META.yml                                 Module meta-data (added by MakeMaker)
+t/00-load.t
+t/pod-coverage.t
+t/pod.t
+Makefile.PL
+META.yml
