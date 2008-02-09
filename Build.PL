@@ -8,10 +8,10 @@ my $builder = Module::Build->new(
     dist_author         => 'Zoffix Znet <zoffix@cpan.org>',
     dist_version_from   => 'lib/Acme/BabyEater.pm',
     build_requires => {
-        'Test::More' => 0,
+        'Test::More'          => 0,
     },
     requires => {
-        'List::Util' => 1.19,
+         'List::Util' => 1.19,
     },
     add_to_cleanup      => [ 'Acme-BabyEater-*' ],
     create_makefile_pl => 'traditional',

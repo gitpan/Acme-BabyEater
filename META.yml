@@ -1,6 +1,6 @@
 ---
 name: Acme-BabyEater
-version: 0.03
+version: 0.04
 author:
   - 'Zoffix Znet <zoffix@cpan.org>'
 abstract: Baby eating has never been easier!
@@ -14,7 +14,7 @@ build_requires:
 provides:
   Acme::BabyEater:
     file: lib/Acme/BabyEater.pm
-    version: 0.03
+    version: 0.04
 generated_by: Module::Build version 0.2808
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.2.html
